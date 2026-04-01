@@ -8,13 +8,13 @@ export default function Main() {
                 <div className="contact">
                     <div className="mail-btn">
                         <a href="mailto:babalolasamuel323@gmail.com">
-                            <img src="./images/mail.png" alt="email logo" className="mail-img"/>
+                            <img src="/images/mail.png" alt="email logo" className="mail-img"/>
                             <p className="ml">Email</p>
                         </a>
                     </div>
                     <div className="linkedin-btn">
                         <a href="https://www.linkedin.com/in/samuel-babalola-852b7a191/?skipRedirect=true">
-                            <img src="./images/linkedin.png" alt="email logo" className="lkd-img"/>
+                            <img src="/images/linkedin.png" alt="email logo" className="lkd-img"/>
                             <p className="ln">LinkedIn</p>
                         </a>
                     </div>
