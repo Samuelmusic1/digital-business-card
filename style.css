@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    color: #ffff;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4em 0;
+}
+
+.dev-img, main, footer {
+    width: 480px;
+}
+
+.dev-img {
+    border-radius: 15px;
+}
+
+.dev-name {
+    font-size: 1.5625rem;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 1.5em;
+}
+
+.dev-role {
+    text-align: center;
+    font-weight: 400;
+    color: #F3BF99;
+}
+
+.dev-pg {
+    color: #F5F5F5;
+    text-align: center;
+    display: block;
+    font-size: 0.8rem;
+    margin-top: 2em;
+}
+
+main > a {
+    text-decoration: none;
+}
+
+main > a:hover {
+    color: #F3BF99;
+}
+
+main > a:active {
+    color: antiquewhite;
+}
+
+.twt-img, .fb-img, .ig-img, .git-img {
+    width: 60%;
+}
+
+.lkd-img, .mail-img {
+    width: 20%;
+    align-self: center;
+}
+
+.lkd-img {
+    margin-bottom: 0.2em;
+}
+
+main {
+    background-color: #1A1B21;
+    padding-bottom: 3em;
+}
+
+.mail-btn, .linkedin-btn {
+    width: 50%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mail-btn > a, .linkedin-btn > a {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+}
+
+.linkedin-btn {
+    border: 1px solid #5093E2;
+    background-color: #5093E2;
+    border-radius: 5px;
+    margin-right: 3em;
+    padding: 0 2.7em;
+}
+
+.mail-btn {
+    border: 1px solid #ffff;
+    background-color: #ffff;
+    border-radius: 5px;
+    margin-left: 3em;
+    margin-right: 2em;
+    padding: 0 4em;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    padding: 2.5em 0;
+    width: 100%;
+}
+
+.ml {
+    color: #374151;
+}
+
+.ml, .ln {
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.ln {
+    color: #ffff;
+}
+
+.abt-section, .int-section {
+    margin: 0 3em 1em 3em;
+}
+
+.abt-section > p, .int-section > p {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+.int-section {
+    margin-top: 2em;
+}
+
+footer {
+    background-color: #161619;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 9em;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+footer > div > a{
+    min-width: 30px;
+    height: 30px;
+    background-color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 0.5em 0.2em;
+    border-radius: 5px;
+    cursor: pointer;
+}
